@@ -26,7 +26,7 @@ attempt_limit = attempt_limit_map[difficulty]
 
 low, high = 1, 100
 # FIX: standardized game range to 1–100 across all difficulty levels for consistent gameplay
-# FIX: ensured difficulty only affects attempt limit (not randomness or scoring)
+# ensured difficulty only affects attempt limit (not randomness or scoring)
 
 st.sidebar.caption("Range: 1 to 100")
 st.sidebar.caption(f"Attempts allowed: {attempt_limit}")
