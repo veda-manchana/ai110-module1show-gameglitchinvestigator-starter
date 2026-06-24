@@ -70,6 +70,26 @@ I fixed the game by:
 - Score updates correctly after each guess (-2 for wrong guesses, bonus on win)
 - When correct number is guessed, game ends and displays final score
 
+1. User selects Normal difficulty
+2. Game generates a secret number between 1 and 100 (e.g., 19)
+3. User enters guess 50
+4. Game responds: "Too High 📈"
+5. Score decreases by -2
+6. User enters guess 10
+7. Game responds: "Too Low 📉"
+8. Score decreases by -2
+9. User enters guess 25
+10. Game responds: "Too High 📈"
+11. Score decreases by -2
+12. User enters guess 19
+13. Game responds: "🎉 Correct!"
+14. Bonus score is added based on attempts used
+15. Game ends and displays final score (e.g., Final Score: 54)
+16. User clicks New Game 🔁
+17. Secret number resets
+18. Attempts reset
+19. Score and history reset correctly
+
 ---
 
 ## 🧪 Test Results
